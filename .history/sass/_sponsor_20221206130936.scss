@@ -1,0 +1,23 @@
+.sponsor {
+  // padding: 35px 145px 0;
+  background-color: gray;
+  margin-bottom: 50px;
+  &-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 50px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .sponsor {
+    // padding: 30px 20px;
+    gap: 0 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sponsor {
+    margin-bottom: 30px;
+  }
+}

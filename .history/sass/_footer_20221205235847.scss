@@ -1,0 +1,27 @@
+.footer {
+  margin-top: 65px;
+  &-container {
+    display: grid;
+    grid-template-columns: 3fr repeat(3, minmax(0, 1fr));
+    grid-gap: 0 126px;
+  }
+  &-desc {
+    margin: 20px 0 30px;
+  }
+  &-social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &-links {
+    list-style-type: none;
+    margin-top: 20px;
+  }
+  &-item {
+    line-height: calc(30 / 16);
+    margin-bottom: 10px;
+  }
+  .copyright {
+    color: AFB5C0;
+  }
+}

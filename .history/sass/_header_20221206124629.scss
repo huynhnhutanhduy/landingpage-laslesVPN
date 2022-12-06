@@ -1,0 +1,27 @@
+.header {
+  margin-top: 50px;
+  margin-bottom: 90px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-auth {
+    display: flex;
+    gap: 0 30px;
+    align-items: center;
+  }
+  &-signin {
+    color: $heading-color;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .header {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    &-auth {
+      display: none;
+    }
+  }
+}

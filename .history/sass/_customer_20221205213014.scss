@@ -1,0 +1,56 @@
+.customer {
+  &-header {
+    max-width: 555px;
+    margin: 0 auto 60px;
+    text-align: center;
+  }
+  &-heading {
+    max-width: 448px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 0 50px;
+  }
+  &-item {
+    list-style-type: none;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    &:first-child {
+      border-color: $primary-color;
+    }
+  }
+  &-top {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-author {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &-name {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: $heading-color;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  &-address {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &-rating {
+    display: flex;
+    align-items: center;
+    grid-area: 0 10px;
+  }
+  &-desc {
+    line-height: calc(30 / 16);
+  }
+}

@@ -1,0 +1,13 @@
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 0 40px;
+  &-link {
+    color: $text-color;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .menu {
+    position: fixed;
+  }
+}

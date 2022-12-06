@@ -1,0 +1,11 @@
+.hero {
+  &-container {
+  }
+  &-heading {
+    color: $text-color;
+    font-size: 50px;
+    strong {
+      font-weight: bold;
+    }
+  }
+}

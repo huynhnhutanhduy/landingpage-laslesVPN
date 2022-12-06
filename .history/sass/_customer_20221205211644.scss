@@ -1,0 +1,16 @@
+.customer {
+  &-header {
+    max-width: 555px;
+    margin: 0 auto 60px;
+    text-align: center;
+  }
+  &-heading {
+    max-width: 448px;
+  }
+  &-list {
+    display: flex;
+  }
+  &-item {
+    list-style-type: none;
+  }
+}

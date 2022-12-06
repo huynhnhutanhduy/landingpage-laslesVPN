@@ -1,0 +1,22 @@
+.header {
+  margin-top: 50px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-signin {
+    color: $heading-color;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  &-link {
+    color: $text-color;
+    font-size: 16px;
+  }
+}

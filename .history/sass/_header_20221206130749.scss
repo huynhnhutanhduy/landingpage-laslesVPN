@@ -1,0 +1,26 @@
+.header {
+  margin: 50px 0 100px;
+  background-color: cyan;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-auth {
+    display: flex;
+    gap: 0 30px;
+    align-items: center;
+  }
+  &-signin {
+    color: $heading-color;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .header {
+    margin: 25px 0 50px;
+    &-auth {
+      display: none;
+    }
+  }
+}

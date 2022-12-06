@@ -1,0 +1,8 @@
+.customer {
+  &-list {
+    display: flex;
+  }
+  &-item {
+    list-style-type: none;
+  }
+}

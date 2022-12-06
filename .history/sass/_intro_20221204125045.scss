@@ -1,0 +1,13 @@
+.intro {
+  &-container {
+    padding: 68px 91px;
+    display: flex;
+    gap: 0 243px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-item {
+    display: flex;
+    gap: 0 37px;
+  }
+}

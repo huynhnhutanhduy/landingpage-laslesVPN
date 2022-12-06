@@ -1,0 +1,17 @@
+.intro {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 42px 114px 0 rgba(#0d1025, 0.6);
+  margin-bottom: 50px;
+  &-container {
+    padding: 68px 91px;
+    display: flex;
+    gap: 0 243px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-item {
+    display: flex;
+    gap: 0 37px;
+  }
+}

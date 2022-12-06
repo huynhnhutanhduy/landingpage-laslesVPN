@@ -1,0 +1,11 @@
+.customer {
+  &-header {
+    max-width: 555px;
+  }
+  &-list {
+    display: flex;
+  }
+  &-item {
+    list-style-type: none;
+  }
+}

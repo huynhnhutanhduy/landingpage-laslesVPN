@@ -1,0 +1,21 @@
+.header {
+  margin-top: 50px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-signin {
+    text-decoration: none;
+    color: $heading-color;
+  }
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  &-link {
+    text-decoration: none;
+    color: $text-color;
+  }
+}

@@ -1,0 +1,26 @@
+.plan {
+  padding: 80px 0 150px;
+  &-container {
+    background-color: #fbfbfb;
+  }
+  &-header {
+    margin: 0 auto 60px;
+    max-width: 555px;
+    text-align: center;
+  }
+  &-main {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  &-item {
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    width: 100%;
+    padding: 80px 50px 50px;
+  }
+  &-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

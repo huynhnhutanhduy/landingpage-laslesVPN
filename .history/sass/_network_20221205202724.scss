@@ -1,0 +1,17 @@
+.network {
+  background: linear-gradient(180deg, #f8f8f8 -45.04%, rgba(248, 248, 248, 0) 88.56%);
+  padding-top: 150px;
+  &-header {
+    max-width: 555px;
+    text-align: center;
+    margin: 0 auto 155px;
+  }
+  &-heading {
+    max-width: 383px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &-image {
+    width: 1060px;
+  }
+}

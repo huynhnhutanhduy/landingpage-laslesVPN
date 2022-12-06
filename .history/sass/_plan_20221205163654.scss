@@ -1,0 +1,23 @@
+.plan {
+  padding: 80px 0 150px;
+  &-container {
+    background-color: #fbfbfb;
+  }
+  &-header {
+    margin: 0 auto 60px;
+    max-width: 555px;
+    text-align: center;
+  }
+  &-item {
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 330px;
+  }
+  &-image {
+    padding: 80px 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

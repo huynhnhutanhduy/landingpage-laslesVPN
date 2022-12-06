@@ -1,0 +1,16 @@
+.feature {
+  &-container {
+    display: flex;
+    gap: 0 170px;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  &-desc {
+    margin: 20px 0;
+  }
+  &-item {
+    list-style: none;
+    display: flex;
+    gap: 15px 10px;
+  }
+}

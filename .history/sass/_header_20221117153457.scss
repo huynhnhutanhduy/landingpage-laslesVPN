@@ -1,0 +1,12 @@
+.header {
+  margin-top: 50px;
+  &-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+  }
+}
+.menu {
+  list-style: none;
+}

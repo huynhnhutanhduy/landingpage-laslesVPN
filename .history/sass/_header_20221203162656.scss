@@ -1,0 +1,32 @@
+.header {
+  margin-top: 50px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-auth {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  &-signin {
+    color: $heading-color;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  &-signup {
+    padding: 13px 45px;
+    border-radius: 50px;
+    border: 1px solid $primary-color;
+  }
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  &-link {
+    color: $text-color;
+    font-size: 16px;
+  }
+}

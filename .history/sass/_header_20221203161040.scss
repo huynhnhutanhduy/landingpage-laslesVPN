@@ -1,0 +1,17 @@
+.header {
+  margin-top: 50px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.menu a {
+  text-decoration: none;
+  color: #4f5665;
+}

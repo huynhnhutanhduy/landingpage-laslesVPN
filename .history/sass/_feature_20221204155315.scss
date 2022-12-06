@@ -1,0 +1,23 @@
+.feature {
+  &-container {
+    display: flex;
+    gap: 0 170px;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  &-image {
+    margin-left: 35px;
+  }
+  &-desc {
+    margin: 20px 0;
+  }
+  &-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: calc(30 / 14);
+  }
+}

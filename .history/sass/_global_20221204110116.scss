@@ -1,0 +1,28 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1170px; // 1170 - 15 - 15 = 1140
+  margin: 0 auto;
+  padding: 0 15px;
+}
+body {
+  line-height: 1;
+  font-family: $font;
+  color: $text-color;
+}
+.button {
+  display: inline-block;
+  padding: 18px 78px;
+  font-family: $font;
+  line-height: 1;
+  font-size: 16px;
+  &--primary {
+    background-color: $primary-color;
+    color: white;
+    box-shadow: 25px 0 35% 0 #f53838;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+}

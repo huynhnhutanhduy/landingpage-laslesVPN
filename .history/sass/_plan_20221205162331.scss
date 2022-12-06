@@ -1,0 +1,16 @@
+.plan {
+  &-container {
+    margin: 80px auto 150px;
+  }
+  &-header {
+    max-width: 555px;
+    text-align: center;
+  }
+  &-main {
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 330px;
+    min-height: 760px;
+  }
+}

@@ -1,0 +1,16 @@
+.sponsor {
+  // padding: 35px 145px 0;
+  margin-bottom: 50px;
+  &-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 0 50px;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .sponsor {
+    padding: 30px 20px;
+  }
+}
