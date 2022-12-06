@@ -6,6 +6,6 @@
 
 https://www.figma.com/file/ZPHfZi0lAaiIs870o7rvPM/FREEBIES-Landingpage-LaslesVPN-(Community)?node-id=1%3A2&t=dBuR0pXjugCAbFtw-0
 
-# Link Demo:
+# Link GitHub Pages:
 
 https://huynhnhutanhduy.github.io/landingpage-laslesVPN/
